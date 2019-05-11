@@ -1,3 +1,20 @@
-p {
-  font-family: Lato;
+body{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 20px;
+}
+
+.text-class{
+background: #ff1b0c;
+font-family: sans-serif;
+}
+/* san serif monospace means default font set in browser fo sans-serif is set up */
+/* css is case insensitive like sectionTitle and sectiontitle are same */
+
+/* top of the style shown in elements of inspect section of  webpage has highest precedence than the lower classes. inline style has higest priority */
+
+/* inline > id > class > tag  */
+/* we can cascade styles applied to tag */
+
+.combinator-example p {
+  background: #00ff00;
 }
